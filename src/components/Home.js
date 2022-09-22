@@ -1,6 +1,5 @@
 import {
   Stack,
-  Button,
   FormControl,
   InputLabel,
   Select,
@@ -28,12 +27,7 @@ const Home = () => {
 
   return (
     <>
-      <Stack
-        sx={{
-          width: "50%",
-        }}
-        spacing={2}
-      >
+      <Stack spacing={2}>
         <Stack direction="row" spacing={2}>
           <FormControl fullWidth>
             <InputLabel id="demo-simple-select-label">Profile</InputLabel>
@@ -47,6 +41,11 @@ const Home = () => {
               <MenuItem value={"kilicdarogluk"}>KK</MenuItem>
               <MenuItem value={"alibabacan"}>babacan</MenuItem>
               <MenuItem value={"RTErdogan"}>RTE</MenuItem>
+              <MenuItem value={"meral_aksener"}>aksener</MenuItem>
+              <MenuItem value={"cbabdullahgul"}>gul</MenuItem>
+              <MenuItem value={"T_Karamollaoglu"}>karamollaoglu</MenuItem>
+              <MenuItem value={"vekilince"}>ince</MenuItem>
+              <MenuItem value={"umitozdag"}>ozdag</MenuItem>
             </Select>
           </FormControl>
           <FormControl fullWidth>
